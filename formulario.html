@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/external-others-inmotus-design/256/external-Hamburger-popular-objects-others-inmotus-design.png">
+    <title>Burguer</title>
+    <style> body{overflow-x: hidden !important;} </style>
+</head>
+<body>
+     <!-- ------------------------------------ HEADER ------------------------------------------->
+    <header class="header">
+        <img src="https://img.icons8.com/external-others-inmotus-design/256/external-Hamburger-popular-objects-others-inmotus-design.png"/>
+        <h1>BURGUER</h1>
+        <!-- menu hamburguer -->
+        <nav>
+            <ul id="menu-hamburger">
+                <button class = "hamburguer">
+                    <div class="barra"></div>
+                </button>
+            </ul>
+            <!-- navigation list mobile -->
+            <ul class="nav-list">
+                <li> <a href="index.html"> Início </a> </li>
+                <li> <a href="hamburguer.html"> Hambúrgueres </a> </li>
+                <li> <a href="pizza.html"> Pizzas </a> </li>
+                <li> <a href="hotdog.html"> Hotdogs </a> </li>
+                <li> <a href="esfiha.html"> Esfihas </a> </li>
+                <li> <a href="bebida.html"> Bebidas </a> </li>
+                <li> <a href="formulario.html"> Cadastro </a> </li>
+            </ul> 
+        </nav>
+
+        <!-- navigation desktop -->
+        <nav class="navigation-desktop">   
+            <a class="first" href="index.html"> Início </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="second" href="hamburguer.html"> Hambúrgueres </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="third" href="pizza.html"> Pizzas </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="fourth" href="hotdog.html"> Hotdogs </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="fifth" href="esfiha.html"> Esfihas </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="sixth" href="bebida.html"> Bebidas </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </nav>
+    </header>
+    <!------------------------------------- HEADER END ----------------------------------------->
+
+    <!-- ------------------------------------- MAIN -------------------------------------------->
+    <form action="mailto:nataoliveirasantos26@gmail.com" enctype="text/plain">
+        
+        <!-- personal data -->
+        <fieldset class="personal-data">
+            <legend>Dados Pessoais</legend>
+            <!-- line break -->
+            <br>
+            <!-- name -->
+            <label for="name">Nome:</label>
+            <input class="name" type="text" id="name" name="name" required>
+            <!-- line break -->
+            <br>
+            <br>
+            <!-- gender -->
+            <label for="gender">Sexo:</label>
+            <input type="radio" id="genderM" name="gender" value="M">
+            Masculino&nbsp;
+            <input type="radio" id="genderF" name="gender" value="F">
+            Feminino
+            <!-- line break -->
+            <br>
+            <br>
+            <!-- birthday -->
+            <label for="birthday">Data de Nascimento:</label>
+            <input class="birthday" type="date" id="birthday" name="birthday">
+        </fieldset>
+        
+        <!-- register -->
+        <fieldset class="register">
+            <legend>Cadastro</legend>
+            <!-- line break -->
+            <br>
+            <!-- email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <!-- line break -->
+            <br>
+            <br>
+            <!-- password -->
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+        </fieldset>
+
+        <!-- message -->
+        <fieldset class="message">
+            <legend>Mensagem</legend>
+            <br>
+            <label for="msg">Escolha o tipo de mensagem:</label>
+            <select name="msg" id="msg">
+                <option value="elogio" checked>Elogio</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="reclamacao">Reclamação</option>
+            </select>    
+            <br>
+            <br>
+            <textarea name="text-msg" id="text-msg" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <!-- submit -->
+        <input class="submit" type="submit" value="Enviar">
+    </form>
+
+    <!-- ----------------------------------- MAIN END ------------------------------------------>
+
+
+
+    <!-- --------------------------------- FOOTER -------------------------------------------->
+    <footer class="footer">
+        <div class="footer-txt">
+            <small>BURGUER</small>
+            <p>Melhores lanches da região</p>  
+        </div>      
+
+        <!-- icons mobile -->
+        <div class="icons-mobile">
+            <a href="https://api.whatsapp.com/send?phone=551138316034" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/27/whatsapp--v1.png"/>
+            </a>
+            <a href="https://goo.gl/maps/jrYi43assz8G2LHUA" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/27/google-maps.png"/>
+            </a>
+            <a href="https://www.instagram.com/etecbasilides/" target="_blank">
+                <img src="https://img.icons8.com/ios-glyphs/27/instagram-new.png"/>
+            </a>
+        </div>    
+        <!-- icons desktop -->
+        <div class="icons-desktop">
+            <a href="https://api.whatsapp.com/send?phone=551138316034" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/40/whatsapp--v1.png"/>
+            </a>
+            <a href="https://goo.gl/maps/jrYi43assz8G2LHUA" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/40/google-maps.png"/>
+            </a>
+            <a href="https://www.instagram.com/etecbasilides/" target="_blank">
+                <img src="https://img.icons8.com/ios-glyphs/40/instagram-new.png"/>
+            </a>
+        </div>  
+        <!-- copyright -->
+        <span>@2023 Copyright - All rights reserved</span>
+        <a class="sing-up" href="formulario.html"> Cadastro </a>
+    </footer> 
+    <!-- ------------------------------ FOOTER END ------------------------------------------->
+
+
+
+    <!-- ------------------------------- JAVA SCRIPT ---------------------------------------->
+    <!-- menu-hamburguer -->
+    <script src="mobile-nav.js"></script>
+
+    <!-- ----------------------------- JAVA SCRIPT END -------------------------------------->
